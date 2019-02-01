@@ -22,7 +22,7 @@ require_relative "../rails_helper.rb"
   end
 
   it 'successfully logs in as non-admin' do
-    
+
     # user_login method is defined in login_helper.rb
     create_standard_user
     visit '/signin'
